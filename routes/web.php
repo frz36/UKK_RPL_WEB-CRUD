@@ -24,9 +24,9 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about', [
         "title" => 'About',
-        "nama" => "Jabrielius Rangga",
-        "email" => "vrangga1@gmaiul.com",
-        "gambar" => "mockup-ticketin.png"
+        "nama" => "Ibnu Hasan Nur Alfaris",
+        "email" => "farizsaero@gmail.com",
+        "gambar" => "catalyst.png"
     ]);
 });
 
